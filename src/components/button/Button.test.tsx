@@ -21,7 +21,7 @@ describe("Button component", () => {
   it("should be onClick method fired on click event", async () => {
     render(<Button label='Click me' onClick={mockFunction} />);
 
-    const element = screen.getByTestId("button-test");
+    const element = screen.getByTestId('button-test');
 
     await userEvent.click(element);
 
