@@ -5,8 +5,7 @@ import { ButtonProps } from "./Button.types";
 import "./style.css";
 
 const Button: FC<ButtonProps> = ({
-  label,
-  color = "primary",
+  label,color = 'primary',
   disabled = false,
   loading = false,
   onClick,
