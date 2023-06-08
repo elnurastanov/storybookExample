@@ -26,6 +26,6 @@ describe("Button component", () => {
     await userEvent.click(element);
 
     expect(mockFunction).toBeCalled();
-    expect(mockFunction).toBeCalledTimes(2);
+    expect(mockFunction).toBeCalledTimes(1);
   });
 });
